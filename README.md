@@ -14,9 +14,7 @@ Este ejercicio fue parte de un examen parcial de la materia **Informática II** 
 Se nos proporcionó un archivo binario (`pv_data.dat`) que contenía mediciones de tensión, corriente y radiación solar tomadas cada 10 segundos.  
 El objetivo era recorrer los datos de cada panel siguiendo los índices enlazados, calcular el rendimiento de cada muestra usando la fórmula:
 
-\[
-rendimiento[\%] = \frac{\text{Tensión} \times \text{Corriente}}{\text{Área del panel} \times \text{Radiación Solar}} \times 100
-\]
+![calculo](https://github.com/SantiagoBaeza/An-lisis-de-rendimiento-de-paneles-solares/blob/main/01%20calculo%20a%20realizar.jpg)
 
 y mostrar los valores ordenados junto con estadísticas de rendimiento.
 
@@ -25,10 +23,6 @@ y mostrar los valores ordenados junto con estadísticas de rendimiento.
 ## Capturas
 
 - **Captura 01**: Lectura del encabezado y datos iniciales.  
-- **Captura 02**: Recorrido ordenado de los datos del panel 1 y panel 2.  
-- **Captura 03**: Cálculo de rendimiento y estadísticas finales.  
-
-*(Podés agregar las imágenes cuando las tengas, usando el formato `![Texto alternativo](URL)`)*
 
 ---
 
@@ -59,7 +53,7 @@ y mostrar los valores ordenados junto con estadísticas de rendimiento.
 ## Comentarios finales
 
 Este proyecto está diseñado para ejecutarse en consola y analizar el rendimiento de paneles solares a partir de datos reales.  
-El archivo binario `pv_data.dat` está disponible en este repositorio para que cualquier persona pueda realizar pruebas por su cuenta.  
+El archivo binario [pv_data.dat](https://github.com/SantiagoBaeza/An-lisis-de-rendimiento-de-paneles-solares/blob/main/03%20pv_data.dat) está disponible en este repositorio para que cualquier persona pueda realizar pruebas por su cuenta.  
 De esta manera, es posible compilar el programa, ejecutar el análisis y comprobar el recorrido ordenado de los datos y el cálculo de rendimiento.
 
 Este ejercicio fue una excelente práctica para reforzar el manejo de estructuras, punteros, archivos binarios y operaciones con bits en C.
